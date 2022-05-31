@@ -1,4 +1,4 @@
-package HomeWorks.HomeWork1;
+package JavaLevel1.HomeWorks_L1.HomeWork1;
 
 public class HomeWork1 {
     public static void main(String[] args) {
