@@ -79,7 +79,6 @@ public class Lesson4 {
         return count == 0;
     }
 
-
     static void doAIMove(Random random, char[][] field){
         int x,y;
 
@@ -98,7 +97,6 @@ public class Lesson4 {
         }while (field[x][y] != '-');
         field[x][y] = 'X';
     }
-
 
     static int convertCoordinateToIndex(Scanner scanner, char coordName){
         int coord;
