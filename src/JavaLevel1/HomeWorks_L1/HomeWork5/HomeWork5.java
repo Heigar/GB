@@ -27,6 +27,12 @@ public class HomeWork5 {
             employeeArray[i].showInfo();
         }
 
+        System.out.println("________________________");
+
+        for (int i = 0; i < employeeArray.length; i++) {
+            System.out.println(employeeArray[i]);;
+        }
+
 
     }
 

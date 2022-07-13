@@ -44,4 +44,16 @@ public class Employee {
     public void showInfo () {
         System.out.println(this.name + " " + this.post + " " + this.mail + " " + this.phone + " " + this.salary + " " + this.age);
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", post='" + post + '\'' +
+                ", mail='" + mail + '\'' +
+                ", phone='" + phone + '\'' +
+                ", salary=" + salary +
+                ", age=" + age +
+                '}';
+    }
 }
